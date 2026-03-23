@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services & Produkter Bam Delivery</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .image-grid figure {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-grid figure:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.05);
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #218b44;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Bam Delivery</h1>
+</header>
+
+<nav>
+    <a href="index.html">Forside</a>
+    <a href="forsendelse.html">Forsendelse</a>
+    <a href="page1.html">Tracking</a>
+    <a href="services-og-produkter.html">Services & Produkter</a>
+    <a href="kontakt.html">Kundeservice</a>
+</nav>
+
+<main>
+    <h2>Services & produkter til erhverv</h2>
+    <p>
+        Bam Delivery tilbyder bæredygtige og moderne logistikløsninger
+        til virksomheder, der ønsker grøn levering med høj kvalitet.
+
+    <ul>
+        <li>🏢 Skræddersyede firmaløsninger</li>
+        <li>📊 Fast levering og fuld tracking</li>
+        <li>🔋 100% elektrisk og miljøvenlig flåde</li>
+    </ul>
+
+    <h2>Vores services</h2>
+    <p>Alle vores services er panda-godkendte og udviklet med omtanke 🌱🐼</p>
+
+    <div class="image-grid">
+
+        <figure>
+            <img src="images/panda-lastbil.png" alt="Grøn leveringsservice med el-lastbil">
+            <figcaption>Grøn leveringsservice</figcaption>
+            <p>
+                Bæredygtig levering af varer med vores el-drevne lastbiler.
+                Ideel løsning for virksomheder, der ønsker hurtig levering
+                og lav CO₂-udledning.
+            </p>
+            <p><strong>Fra 499 kr. pr. levering</strong></p>
+        </figure>
+
+        <figure>
+            <img src="images/panda-elbil.png" alt="El-transport og slæbning">
+            <figcaption>El-transport & slæbning</figcaption>
+            <p>
+                Miljøvenlig transport og slæbning af køretøjer og tungt gods.
+                Velegnet til specialopgaver og erhvervstransport.
+            </p>
+            <p><strong>Fra 899 kr.</strong></p>
+        </figure>   
+
+        <figure>
+            <img src="images/panda.png" alt="Bam Delivery panda maskot">
+            <figcaption>Panda-branding</figcaption>
+            <p>
+                Brug Bam Deliverys ikoniske panda i kampagner og events,
+                og styrk din virksomheds grønne og genkendelige brand.
+            </p>
+            <p><strong>Fra 299 kr.</strong></p>
+        </figure>
+
+    </div>
+
+</main>
+
+<footer>
+    © 2026 • Bam Delivery
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
